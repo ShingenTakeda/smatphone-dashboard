@@ -11,6 +11,35 @@ O objetivo é transformar dados técnicos complexos e preços em insights acion�
 
 <!-- end_slide -->
 
+Tecnologias Utilizadas
+---
+
+<!-- column_layout: [2, 3] -->
+
+<!-- column: 0 -->
+
+O projeto foi desenvolvido utilizando tecnologias de código aberto:
+
+* **Python:** Linguagem de programação principal.
+* **Pandas:** Para manipulação e análise de dados.
+* **Streamlit:** Para a criação do dashboard interativo.
+* **Altair:** Para a geração da maioria dos gráficos interativos.
+
+<!-- column: 1 -->
+
+```python
+# pyproject.toml
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+streamlit = "^1.35.0"
+altair = "^5.3.0"
+```
+
+<!-- reset_layout -->
+
+<!-- end_slide -->
+
 Problema
 ---
 
@@ -46,6 +75,54 @@ st.title('Smartphone Custo-Benefício Dashboard')
 
 <!-- end_slide -->
 
+Diagnóstico dos Processos
+---
+
+>*Nota: Esta seção faz parte do relatório abrangente do projeto e contextualiza a aplicação de frameworks de gestão.*
+
+Nesta etapa, realizamos uma análise aprofundada dos processos críticos envolvidos na decisão de compra de smartphones e na gestão de produtos no varejo.
+
+*   **Identificação de Processos Críticos:** Mapeamento dos fluxos de informação e decisão.
+*   **Aplicação de ITIL:** Seleção e análise de processos ITIL relevantes para otimizar a coleta e o uso de dados, visando a melhoria contínua e a eficiência.
+
+<!-- end_slide -->
+
+Proposição de Indicadores (KPIs)
+---
+
+>*Nota: Esta seção faz parte do relatório abrangente do projeto e contextualiza a aplicação de frameworks de gestão.*
+
+Foram definidos KPIs específicos para monitorar e avaliar a eficácia das decisões e processos.
+
+*   **KPIs de Gerenciamento de Incidentes e Problemas:** Focados na resolução rápida e eficaz de falhas e problemas no fluxo de dados ou na funcionalidade do dashboard.
+*   **KPIs de Gerenciamento de Capacidade:** Para assegurar que a infraestrutura de BI e os processos de análise possam suportar a demanda crescente e a complexidade dos dados.
+
+<!-- end_slide -->
+
+Aplicação do Balanced Scorecard (BSC)
+---
+
+>*Nota: Esta seção faz parte do relatório abrangente do projeto e contextualiza a aplicação de frameworks de gestão.*
+
+O Balanced Scorecard (BSC) foi utilizado como uma ferramenta estratégica para alinhar as ações do projeto com os objetivos de negócio mais amplos.
+
+*   **BSC da Galactic Foods:** Demonstração da aplicação do BSC em um cenário simulado, focando nas perspectivas Financeira, do Cliente, de Processos Internos e de Aprendizado e Crescimento, para garantir uma visão holística do impacto do dashboard.
+
+<!-- end_slide -->
+
+Análise e Plano de Ação
+---
+
+>*Nota: Esta seção faz parte do relatório abrangente do projeto e contextualiza a aplicação de frameworks de gestão.*
+
+Com base nos dados e nos resultados simulados, foram desenvolvidos planos de ação estratégicos.
+
+*   **Análise dos Resultados Simulados:** Avaliação do impacto potencial do dashboard nas métricas de negócio.
+*   **Gargalos Identificados:** Reconhecimento de pontos fracos nos processos atuais ou na implementação de BI.
+*   **Planos de Ação Recomendados:** Propostas concretas para otimizar a tomada de decisão, melhorar a performance do produto e refinar estratégias de mercado.
+
+<!-- end_slide -->
+
 Features principais
 ---
 
@@ -78,32 +155,17 @@ Essa métrica permite uma comparação justa e objetiva entre diferentes modelos
 
 <!-- end_slide -->
 
-Tecnologias Utilizadas
+Estrutura do Dashboard e KPIs
 ---
 
-<!-- column_layout: [2, 3] -->
+A estrutura do dashboard foi projetada para refletir diretamente os KPIs e objetivos de análise definidos no projeto.
 
-<!-- column: 0 -->
-
-O projeto foi desenvolvido utilizando tecnologias de código aberto:
-
-* **Python:** Linguagem de programação principal.
-* **Pandas:** Para manipulação e análise de dados.
-* **Streamlit:** Para a criação do dashboard interativo.
-* **Altair:** Para a geração de gráficos declarativos.
-
-<!-- column: 1 -->
-
-```python
-# pyproject.toml
-[tool.poetry.dependencies]
-python = "^3.11"
-pandas = "^2.2.2"
-streamlit = "^1.35.0"
-altair = "^5.3.0"
-```
-
-<!-- reset_layout -->
+*   **Análise do KPI Principal:** O "Índice de Custo-Benefício" é a estrela, presente em múltiplos gráficos para comparar marcas e modelos.
+*   **Segmentação Estratégica:** Os filtros e gráficos permitem a segmentação por faixa de preço, marca e ano, conforme planejado, para análises de nicho.
+*   **Análise de Correlação:**
+    *   **Preço vs. Specs:** O gráfico "Preço vs. Custo-Benefício" aborda diretamente esta questão.
+    *   **Specs vs. Specs:** Gráficos como "RAM vs. Armazenamento" revelam os trade-offs de hardware.
+    *   **Marca vs. Custo-Benefício:** O gráfico de barras por marca e o detalhado por segmento respondem a esta pergunta.
 
 <!-- end_slide -->
 
