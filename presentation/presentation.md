@@ -110,18 +110,95 @@ altair = "^5.3.0"
 Visualizações do Dashboard
 ---
 
-O dashboard dá vida aos dados com uma variedade de gráficos interativos:
+O dashboard dá vida aos dados com uma variedade de gráficos interativos, permitindo uma exploração profunda do mercado de smartphones. As seções a seguir detalham cada uma das principais análises visuais.
 
-*   **Custo-Benefício por Marca:** Um gráfico de barras que classifica as marcas pelo seu índice de custo-benefício médio, revelando quais fabricantes oferecem o melhor valor.
-*   **Preço vs. Custo-Benefício:** Um gráfico de dispersão que ajuda a identificar outliers — smartphones que oferecem um alto benefício por um baixo custo.
-*   **Análise de Hardware:** Gráficos que correlacionam especificações importantes, como RAM vs. Armazenamento e Bateria vs. Tamanho da Tela, para entender os trade-offs de engenharia.
-*   **Evolução Temporal:** Um gráfico de linha que mostra como o custo-benefício médio dos smartphones evoluiu ao longo dos anos.
+<!-- end_slide -->
+
+Custo-Benefício Médio por Marca
+---
+
+Este gráfico de barras classifica as marcas com base no seu "Índice de Custo-Benefício" médio.
+
+*   **O que ele mostra:** Compara diretamente o valor que cada marca oferece em relação ao custo de seus aparelhos.
+*   **Insights:**
+    *   Identificar rapidamente quais marcas lideram o mercado em termos de custo-benefício.
+    *   Descobrir marcas menos conhecidas que podem oferecer um valor excepcional.
+    *   Avaliar se marcas premium justificam seu preço com um benefício proporcional.
+
+<!-- end_slide -->
+
+Preço vs. Custo-Benefício
+---
+
+Um gráfico de dispersão que posiciona cada smartphone com base em seu preço e no seu índice de custo-benefício.
+
+*   **O que ele mostra:** A relação entre o que você paga e o que você recebe. O ideal é estar no quadrante superior esquerdo (baixo custo, alto benefício).
+*   **Insights:**
+    *   Encontrar "joias escondidas": aparelhos com alto desempenho e preço competitivo.
+    *   Visualizar quais smartphones estão com preços excessivos para o que oferecem.
+    *   Entender a estratégia de precificação de diferentes marcas.
+
+<!-- end_slide -->
+
+Análise de Hardware
+---
+
+Dois gráficos de dispersão que exploram a relação entre componentes-chave:
+
+1.  **RAM vs. Armazenamento:** Mostra como a memória RAM e o armazenamento interno se correlacionam.
+2.  **Bateria vs. Tamanho da Tela:** Revela se telas maiores geralmente vêm com baterias maiores.
+
+*   **Insights:**
+    *   Analisar os padrões de combinação de hardware das fabricantes.
+    *   Identificar se um aparelho economiza em uma especificação para melhorar outra.
+    *   Verificar se um smartphone atende a um equilíbrio específico de hardware desejado (ex: muita RAM com armazenamento moderado).
+
+<!-- end_slide -->
+
+Evolução Temporal do Custo-Benefício
+---
+
+Este gráfico de linha acompanha o "Índice de Custo-Benefício" médio dos smartphones ao longo dos anos.
+
+*   **O que ele mostra:** A tendência da indústria: os celulares estão oferecendo mais por menos com o passar do tempo?
+*   **Insights:**
+    *   Observar o impacto da inovação tecnológica no valor oferecido ao consumidor.
+    *   Identificar anos específicos em que houve um salto significativo no custo-benefício.
+    *   Analisar se a tendência de melhoria de valor se aplica a todas as faixas de preço.
+
+<!-- end_slide -->
+
+Distribuição de Preço Categórica
+---
+
+Box plots que analisam a faixa de preços para diferentes categorias de hardware e software.
+
+1.  **Tipo de Tela:** Compara os preços de aparelhos com telas OLED, IPS, etc.
+2.  **Sistema Operacional:** Mostra a diferença de preço entre smartphones Android e iOS.
+
+*   **Insights:**
+    *   Entender o impacto de uma tecnologia específica (como tela OLED) no preço final do produto.
+    *   Visualizar a dispersão de preços dentro de cada categoria.
+    *   Comparar as estratégias de mercado para diferentes sistemas operacionais.
+
+<!-- end_slide -->
+
+Custo-Benefício por Marca e Segmento
+---
+
+Um gráfico de barras agrupadas que detalha o custo-benefício médio de cada marca dentro de diferentes faixas de preço (baixo, médio, alto).
+
+*   **O que ele mostra:** O desempenho de cada marca em seu nicho de mercado específico.
+*   **Insights:**
+    *   Descobrir qual marca domina o segmento de aparelhos de baixo custo.
+    *   Avaliar se uma marca de luxo também compete bem em faixas de preço mais baixas.
+    *   Fornecer uma visão granular para decisões de compra ou análise de concorrência.
 
 <!-- end_slide -->
 
 Conclusão
 ---
 
-Este projeto demonstra como a análise de dados e a visualização podem capacitar a tomada de decisões no mercado de tecnologia.
+Este projeto transforma uma massa de dados complexos em uma ferramenta de decisão clara e poderosa.
 
-O dashboard oferece uma ferramenta poderosa para consumidores e profissionais, trazendo clareza e transparência para a escolha de smartphones.
+Através de visualizações interativas e uma métrica de custo-benefício bem definida, o dashboard capacita **consumidores** a fazerem compras mais inteligentes e **profissionais** a entenderem as dinâmicas do mercado de smartphones com maior profundidade.
