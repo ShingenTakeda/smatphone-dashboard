@@ -11,7 +11,7 @@ O objetivo é transformar dados técnicos complexos e preços em insights acion�
 
 <!-- end_slide -->
 
-The Problem
+Problema
 ---
 
 O mercado de smartphones é saturado de opções, tornando a escolha do aparelho ideal uma tarefa complexa.
@@ -21,7 +21,7 @@ O mercado de smartphones é saturado de opções, tornando a escolha do aparelho
 
 <!-- end_slide -->
 
-The Solution
+Solução
 ---
 
 Um dashboard interativo desenvolvido com Streamlit que serve como um "consultor virtual".
@@ -46,7 +46,7 @@ st.title('Smartphone Custo-Benefício Dashboard')
 
 <!-- end_slide -->
 
-Key Features
+Features principais
 ---
 
 O dashboard oferece uma variedade de filtros e visualizações:
