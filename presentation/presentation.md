@@ -78,48 +78,50 @@ st.title('Smartphone Custo-Benefício Dashboard')
 Diagnóstico dos Processos
 ---
 
->*Nota: Esta seção faz parte do relatório abrangente do projeto e contextualiza a aplicação de frameworks de gestão.*
-
 Nesta etapa, realizamos uma análise aprofundada dos processos críticos envolvidos na decisão de compra de smartphones e na gestão de produtos no varejo.
 
-*   **Identificação de Processos Críticos:** Mapeamento dos fluxos de informação e decisão.
-*   **Aplicação de ITIL:** Seleção e análise de processos ITIL relevantes para otimizar a coleta e o uso de dados, visando a melhoria contínua e a eficiência.
+*   **Processo do Consumidor:** A jornada de compra é frequentemente manual e confusa, baseada em múltiplas abas de navegador, reviews subjetivos e especificações técnicas de difícil comparação.
+*   **Processo do Varejista:** A seleção de portfólio de produtos muitas vezes depende de dados de vendas históricos, com dificuldade em antecipar tendências de custo-benefício e em identificar "heróis de vendas" em potencial.
 
 <!-- end_slide -->
 
 Proposição de Indicadores (KPIs)
 ---
 
->*Nota: Esta seção faz parte do relatório abrangente do projeto e contextualiza a aplicação de frameworks de gestão.*
-
 Foram definidos KPIs específicos para monitorar e avaliar a eficácia das decisões e processos.
 
-*   **KPIs de Gerenciamento de Incidentes e Problemas:** Focados na resolução rápida e eficaz de falhas e problemas no fluxo de dados ou na funcionalidade do dashboard.
-*   **KPIs de Gerenciamento de Capacidade:** Para assegurar que a infraestrutura de BI e os processos de análise possam suportar a demanda crescente e a complexidade dos dados.
+*   **KPI Primário (Core KPI):** O "Índice de Custo-Benefício" é o indicador central, usado para medir e comparar o valor intrínseco de cada smartphone.
+*   **KPIs para Varejistas:**
+    *   **Share de Custo-Benefício por Marca:** Percentual de aparelhos de uma marca que estão acima da média de custo-benefício do mercado.
+    *   **Taxa de Adoção de Novos Modelos:** Velocidade com que novos modelos de alto custo-benefício são identificados e promovidos.
+*   **KPIs para Consumidores:**
+    *   **Tempo para Decisão:** Redução no tempo médio que um usuário leva para selecionar um smartphone usando o dashboard.
+    *   **Índice de Confiança na Compra:** Medido através de pesquisas de satisfação pós-uso da ferramenta.
 
 <!-- end_slide -->
 
 Aplicação do Balanced Scorecard (BSC)
 ---
 
->*Nota: Esta seção faz parte do relatório abrangente do projeto e contextualiza a aplicação de frameworks de gestão.*
-
 O Balanced Scorecard (BSC) foi utilizado como uma ferramenta estratégica para alinhar as ações do projeto com os objetivos de negócio mais amplos.
 
-*   **BSC da Galactic Foods:** Demonstração da aplicação do BSC em um cenário simulado, focando nas perspectivas Financeira, do Cliente, de Processos Internos e de Aprendizado e Crescimento, para garantir uma visão holística do impacto do dashboard.
+*   **Perspectivas do BSC:**
+    *   **Financeira:** O dashboard contribui para a identificação de smartphones com melhor custo-benefício, otimizando o investimento e o retorno financeiro para consumidores e varejistas.
+    *   **Cliente:** Fornece aos consumidores uma ferramenta clara e objetiva para a decisão de compra, aumentando a satisfação e a lealdade.
+    *   **Processos Internos:** Melhora o processo de análise de mercado e seleção de produtos para varejistas, tornando-o mais eficiente e baseado em dados.
+    *   **Aprendizado e Crescimento:** A plataforma pode ser continuamente atualizada com novos dados e funcionalidades, promovendo a inovação e o aprimoramento da análise.
 
 <!-- end_slide -->
 
 Análise e Plano de Ação
 ---
 
->*Nota: Esta seção faz parte do relatório abrangente do projeto e contextualiza a aplicação de frameworks de gestão.*
-
 Com base nos dados e nos resultados simulados, foram desenvolvidos planos de ação estratégicos.
 
-*   **Análise dos Resultados Simulados:** Avaliação do impacto potencial do dashboard nas métricas de negócio.
-*   **Gargalos Identificados:** Reconhecimento de pontos fracos nos processos atuais ou na implementação de BI.
-*   **Planos de Ação Recomendados:** Propostas concretas para otimizar a tomada de decisão, melhorar a performance do produto e refinar estratégias de mercado.
+*   **Análise de Oportunidades:** Com base no gráfico "Preço vs. Custo-Benefício", identificamos smartphones que estão no quadrante "alta performance, baixo custo" como oportunidades de compra para consumidores e de destaque para varejistas.
+*   **Identificação de Gargalos de Mercado:** O dashboard revela marcas com baixo custo-benefício, indicando um gargalo em sua estratégia de precificação ou na qualidade de seus produtos.
+*   **Plano de Ação para Varejistas:** Utilizar o filtro por faixa de preço e o gráfico "Custo-Benefício por Marca" para otimizar o portfólio, focando em marcas e modelos que oferecem maior valor em cada segmento.
+*   **Plano de Ação para Consumidores:** Navegar pela "Evolução Temporal do Custo-Benefício" para decidir se a compra de um modelo do ano anterior oferece uma vantagem financeira significativa.
 
 <!-- end_slide -->
 
@@ -181,6 +183,9 @@ Custo-Benefício Médio por Marca
 
 Este gráfico de barras classifica as marcas com base no seu "Índice de Custo-Benefício" médio.
 
+![Custo-Benefício Médio por Marca](graphs/custo_beneficio_por_marca.png)
+
+<!-- end_slide -->
 *   **O que ele mostra:** Compara diretamente o valor que cada marca oferece em relação ao custo de seus aparelhos.
 *   **Insights:**
     *   Identificar rapidamente quais marcas lideram o mercado em termos de custo-benefício.
@@ -194,6 +199,9 @@ Preço vs. Custo-Benefício
 
 Um gráfico de dispersão que posiciona cada smartphone com base em seu preço e no seu índice de custo-benefício.
 
+![Preço vs. Custo-Benefício](graphs/preco_vs_custo_beneficio.png)
+
+<!-- end_slide -->
 *   **O que ele mostra:** A relação entre o que você paga e o que você recebe. O ideal é estar no quadrante superior esquerdo (baixo custo, alto benefício).
 *   **Insights:**
     *   Encontrar "joias escondidas": aparelhos com alto desempenho e preço competitivo.
@@ -210,6 +218,11 @@ Dois gráficos de dispersão que exploram a relação entre componentes-chave:
 1.  **RAM vs. Armazenamento:** Mostra como a memória RAM e o armazenamento interno se correlacionam.
 2.  **Bateria vs. Tamanho da Tela:** Revela se telas maiores geralmente vêm com baterias maiores.
 
+![RAM vs. Armazenamento](graphs/ram_vs_armazenamento.png)
+<!-- end_slide -->
+![Bateria vs. Tamanho da Tela](graphs/bateria_vs_tela.png)
+
+<!-- end_slide -->
 *   **Insights:**
     *   Analisar os padrões de combinação de hardware das fabricantes.
     *   Identificar se um aparelho economiza em uma especificação para melhorar outra.
@@ -222,6 +235,9 @@ Evolução Temporal do Custo-Benefício
 
 Este gráfico de linha acompanha o "Índice de Custo-Benefício" médio dos smartphones ao longo dos anos.
 
+![Evolução Temporal do Custo-Benefício](graphs/evolucao_temporal_custo_beneficio.png)
+
+<!-- end_slide -->
 *   **O que ele mostra:** A tendência da indústria: os celulares estão oferecendo mais por menos com o passar do tempo?
 *   **Insights:**
     *   Observar o impacto da inovação tecnológica no valor oferecido ao consumidor.
@@ -238,6 +254,11 @@ Box plots que analisam a faixa de preços para diferentes categorias de hardware
 1.  **Tipo de Tela:** Compara os preços de aparelhos com telas OLED, IPS, etc.
 2.  **Sistema Operacional:** Mostra a diferença de preço entre smartphones Android e iOS.
 
+![Distribuição de Preço por Tipo de Tela](graphs/preco_por_tipo_tela.png)
+<!-- end_slide -->
+![Distribuição de Preço por Sistema Operacional](graphs/preco_por_os.png)
+
+<!-- end_slide -->
 *   **Insights:**
     *   Entender o impacto de uma tecnologia específica (como tela OLED) no preço final do produto.
     *   Visualizar a dispersão de preços dentro de cada categoria.
@@ -250,6 +271,10 @@ Custo-Benefício por Marca e Segmento
 
 Um gráfico de barras agrupadas que detalha o custo-benefício médio de cada marca dentro de diferentes faixas de preço (baixo, médio, alto).
 
+![Custo-Benefício por Marca e Faixa de Preço](graphs/custo_beneficio_por_marca_e_faixa_preco.png)
+
+
+<!-- end_slide -->
 *   **O que ele mostra:** O desempenho de cada marca em seu nicho de mercado específico.
 *   **Insights:**
     *   Descobrir qual marca domina o segmento de aparelhos de baixo custo.
